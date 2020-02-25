@@ -1,0 +1,36 @@
+.borde{
+    border: 2px solid coral;
+}
+
+
+h1{
+    border: 10px dotted blue;
+   height: 200px;
+   background-color: rgb(134, 134, 134);
+   padding-left: 30px;
+   padding-top: 30px;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top: 50px;
+   /* 1. para definir margin en una sola linea empieza desde arriba ej: margin:50px 30px 60px 10px; */
+   /* 2. para definir padding en una sola linea simetrico ej: padding; 5px 10px; */
+    /* display: inline-block; */
+}
+p{
+    border: 2px solid rgb(255, 146, 3);
+    width: 200px;
+    /* display: inline-block;  */
+    /* Ventajas del block se le pude modificar el tamaño, desventaja no se puede poner nada a un lado  */
+}
+
+a{
+    border: 1px;
+}
+
+
+.navegacion{
+    padding-left: 820px;
+    padding: 10px 0 0 800px;
+    border: 4px solid blue;
+    height: 20px;
+}
